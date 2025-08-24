@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Car from "./Car";
 
 class Mycars extends React.Component {
@@ -6,7 +6,10 @@ class Mycars extends React.Component {
         return (
             <div>
                 <h1>Hello React</h1>
-                <Car />
+                <Car color="red">Ford</Car>
+                <Car color="blue">Mercedes</Car>
+                <Car color="green">BMW</Car>
+
             </div>
         )
     }
